@@ -16,9 +16,10 @@ public class Program {
         st.q1 = sc.nextDouble();
         st.q2 = sc.nextDouble();
         st.q3 = sc.nextDouble();
+        double sum = st.q1 + st.q2 + st.q3;
 
-        System.out.printf("FINAL GRADE = %.2f%n", st.sum());
-        st.finalGrade();
+        System.out.printf("FINAL GRADE = %.2f%n", sum);
+        st.finalGrade(sum);
 
         sc.close();
     }
